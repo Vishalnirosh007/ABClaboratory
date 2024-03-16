@@ -10,9 +10,19 @@
   	<description></description>
   	<servlet-class>abc.laboratory.webapp.Controller.DoctorController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>PatientController</servlet-name>
+  	<display-name>PatientController</display-name>
+  	<description></description>
+  	<servlet-class>abc.laboratory.webapp.Controller.PatientController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>DoctorController</servlet-name>
   	<url-pattern>/DoctorController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PatientController</servlet-name>
+  	<url-pattern>/PatientController</url-pattern>
   </servlet-mapping>
   
 </web-app>
